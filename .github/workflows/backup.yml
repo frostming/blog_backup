@@ -23,4 +23,6 @@ jobs:
           if [ $(git status -s | wc -l) -ne 0 ]; then
             git commit -m "Update posts"
             git push https://${{ github.actor }}:${{ secrets.REPO_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
-          fi || echo "Nothing to update"
+          else
+            echo "Nothing to update"
+          fi
