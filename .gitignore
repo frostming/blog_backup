@@ -1,0 +1,5 @@
+__pypackages__/
+*.py[cod]
+*.egg-info/
+.idea/
+.pdm.toml
