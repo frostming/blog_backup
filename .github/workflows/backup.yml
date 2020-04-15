@@ -12,9 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download markdown files
-        run: |
-          curl -o posts.zip "https://frostming.com/dump_all?token=${{ secrets.API_TOKEN }}"
-          unzip -u posts.zip && rm posts.zip
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: sh update.sh
       - name: Commit and push changes
         run: |
           git config --local user.name 'GitHub Action'
