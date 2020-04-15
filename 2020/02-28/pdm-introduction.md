@@ -11,7 +11,7 @@ title: PDM - 一款新的 Python 包管理器
 ---
 
 去年临近跨年的某一天，一个包管理器突然在脑海中形成了蓝图。粗略地估计了一下我的编码能力，我认为这在我的能力范围之内，于是尽管年底非常忙，还要忙着晋升答辩的事情，我还是腾出空（摸鱼）写下了我的第一行代码。
-
+<!--more-->
 ![image-20200228135957046](https://static.frostming.com/images/image-20200228135957046.png)
 
 这个项目就是[pdm](https://github.com/frostming/pdm)，我给它取了一个很装逼的名字——Python Development Master。截止发文时，已经在PyPI上发布了0.3.0版本，它包含以下特性：

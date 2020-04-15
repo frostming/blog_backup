@@ -9,7 +9,9 @@ tags:
 title: 百度低质回答是如何坑了你
 ---
 
-昨天某个新手又抛出来个问题：为什么找不到 `django-admin` 可执行程序？我一看这不是Python高频问题之一吗[^1]，就问他`PATH`是怎么设置的，结果他把`django-admin` 复制到了`site-packages/django/bin`下面。这就相当荒谬了，`lib/site-packages`下面放的是库文件，这里是不可能会有`bin`存在也不会有可执行程序在这里面的，当然，你随便放在哪，只要加到`PATH`里面了就肯定能工作。那么试问为何不把`django-admin`原本所在位置加到`PATH`里而要用这么蹩脚的方法呢？
+昨天某个新手又抛出来个问题：为什么找不到 `django-admin` 可执行程序？我一看这不是Python高频问题之一吗[^1]。
+<!--more-->
+就问他`PATH`是怎么设置的，结果他把`django-admin` 复制到了`site-packages/django/bin`下面。这就相当荒谬了，`lib/site-packages`下面放的是库文件，这里是不可能会有`bin`存在也不会有可执行程序在这里面的，当然，你随便放在哪，只要加到`PATH`里面了就肯定能工作。那么试问为何不把`django-admin`原本所在位置加到`PATH`里而要用这么蹩脚的方法呢？
 
 [^1]: 这个问题解决方法是有套路的，可以参阅我之前写的文章[你的 Python 包都装到哪了？
 ](https://frostming.com/2019/03-13/where-do-your-packages-go)
