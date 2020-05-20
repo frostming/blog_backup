@@ -19,6 +19,9 @@ title: Flask+Nginx博客容器化部署
 > 
 > **2019.12.04更新内容**
 > 更新.env配置内容
+> 
+> **2020.05.19更新内容**
+> 简化部署步骤
 
 我是一个爱折腾的人，2016年才开始学会自建博客，到现在博文没写多少篇却折腾了好几回。经历了Hexo+GitHub Page，再到Flask+Heroku，现在终于用上了国内云服务+Nginx，感觉速度快了很多。总结起来，使用Flask+Nginx，好处有以下几个方面：
 
@@ -37,7 +40,7 @@ title: Flask+Nginx博客容器化部署
 
 使用一个非root的用户是一个好习惯，需要自己添加：
 
-```
+```console
 # adduser fming
 # echo "fming   ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
 ```
@@ -45,18 +48,18 @@ title: Flask+Nginx博客容器化部署
 
 ## 0x01 安装Docker
 
-```
+```console
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 ```
 此脚本将自动将Docker CE安装到系统上，若安装失败，可尝试[其他安装方法](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)。安装完成后，需添加当前用户到docker组：
-```
+```console
 $ sudo usermod -aG docker $USER
 ```
 ## 0x02 安装Docker-compose
 Docker-compose是一款Docker的工具，它能让你高效管理多个容器，否则需要加一大堆选项到Docker命令后。它同样提供了一个一键安装脚本（[其他安装方法](https://docs.docker.com/compose/install/#install-compose)）：
-```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```console
+$ sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 ## 0x03 创建本地环境配置
@@ -79,26 +82,23 @@ POSTGRES_PASSWORD=xxx
 POSTGRES_DB=flog_db
 DB_SERVICE=db
 DATABASE_URL=postgresql+psycopg2://xxx:xxx@db:5432/flog_db
+CERTBOT_EMAIL=<Your Email Address>
 ```
 使用`db`就可以指代数据库容器的服务地址了。
 
 *注意：`.env`和`./nginx/cert`（证书目录）不可提交到版本控制平台上。*
 
-## 0x04 配置数据库
-
-参考[阮一峰的文章](http://www.ruanyifeng.com/blog/2013/12/getting_started_with_postgresql.html)，讲得很清楚了。
-
-## 0x05 构建静态文件
+## 0x04 构建静态文件
 
 博客的后台部分用到了Vue.js + ElementUI，需要构建静态文件，使用起来也很简单：
 
-```bash
+```console
 $ cd static
 $ npm i
 $ npm run build:prod
 ```
 
-## 0x06 Nginx配置
+## 0x05 Nginx配置
 在上一节的配置中可以看到我把Nginx的配置文件映射到了`./nginx/conf.d/default.conf`中。编辑该文件，修改`servername`为你的域名，ssl开头的部分暂时不变，我们会在后面修改它。配置的一些说明：
 
 ### 主站
@@ -125,24 +125,11 @@ location /static {
 ```
 我之前已经把静态文件映射到Nginx容器中的`/opt/static`了。
 
-## 0x07 HTTPS!
-
-最近我的阿里的免费证书到期，寻思着换到LetsEncrypt, LetsEncrypt有以下几个好处：
-
-1. 个人免费
-2. 有效期虽只有3个月但可以通过工具自动更新证书，这样就能做到永久免费证书
-
-[官方网站](https://certbot.eff.org/)提供了接入指引，非常便捷。但得益于容器化的好处，这些安装、接入步骤全都能省略！我把`.docker-compose.yml`中`nginx`容器的镜像从`nginx`改成了`really/nginx-certbot`，这个镜像甚至包括了自动每天更新证书的功能，我已经把改好后的上传到了GitHub，clone下来了就能用。只需要第一次部署后在云服务器上执行：
-```bash
-$ docker-compose run --entrypoint "certbot --nginx" nginx
-```
-然后按照指引一步步填好信息就行了。以后部署不需要执行此步骤。
-
-## 0x08 启动容器
+## 0x06 启动容器
 
 好了，万事俱备，现在可以启动容器了！转到仓库所在目录：
-```
-docker-compose up --build -d
+```console
+$ docker-compose up --build -d
 ```
 拉取镜像，构建镜像，启动容器，一条命令足矣！一切都没有问题的话，你的网站已经跑起来了。
 
@@ -153,19 +140,6 @@ docker-compose up --build -d
 
 更多阅读：[LET'S ENCRYPT 给网站加 HTTPS 完全指南](https://ksmx.me/letsencrypt-ssl-https/)
 
-## 0x09 初始化博客
+## 0x07 初始化博客
 
 第一次启动博客，请先到 `<your domain>/admin/#/settings`设置你的博客。
-
-## 0x0A 更新博客
-
-Flog加入新特性，想引入到你的网站中？
-
-```bash
-$ docker-compose build web
-$ docker-compose up -d web
-```
-若更新了nginx配置：
-```bash
-$ docker-compose restart nginx
-```
