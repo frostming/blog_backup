@@ -6,6 +6,7 @@ description: ''
 image: https://images.unsplash.com/photo-1458419948946-19fb2cc296af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 tags:
 - 社区
+- 入门
 title: 社区问答中需要避免的行为
 ---
 
