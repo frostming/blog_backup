@@ -5,8 +5,8 @@ date: 2020-04-12 04:29:14.356700
 description: PDM 实现 PEP 582 遇到的坑
 image: //static.frostming.com/images/2020-04-pep582.png
 tags:
-- 日志
 - Python
+- Packaging
 title: PEP 582的开发日志
 ---
 
