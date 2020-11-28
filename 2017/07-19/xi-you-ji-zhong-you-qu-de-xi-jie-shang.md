@@ -1,11 +1,11 @@
 ---
-author: null
 category: 随笔
 date: 2017-07-19 21:02:02
 description: 重新认识孙悟空
 image: //static.frostming.com/images/201411210224551745.jpg
 tags:
 - 阅读
+template: post
 title: 《西游记》中有趣的细节（上）
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-05-24 13:17:48.286258
 description: 新手问题Sticker系列
 image: https://images.unsplash.com/photo-1522198798025-edbf00dabd6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 tags:
 - 入门
+template: post
 title: Web 服务的进程托管
 ---
 

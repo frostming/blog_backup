@@ -1,5 +1,4 @@
 ---
-author: null
 category: 随笔
 date: 2016-06-15 21:22:23
 description: null
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/4d62291b0c918088fbe83357e2092061.png
 tags:
 - 日志
 - 心情
+template: post
 title: 六月夏至
 ---
 

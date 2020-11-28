@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2017-03-30 20:13:46
 description: null
@@ -8,6 +7,7 @@ tags:
 - Web
 - Python
 - SQLite
+template: post
 title: SQLite 爬坑记
 ---
 

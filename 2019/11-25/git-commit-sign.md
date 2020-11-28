@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-11-25 14:37:05.729331
 description: 一个简单但很多人没注意的细节
 image: https://images.unsplash.com/photo-1554252116-30abdf759321?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 tags:
 - git
+template: post
 title: 给你的 Git commit 加上绿勾
 ---
 

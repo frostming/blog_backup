@@ -1,10 +1,10 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2018-07-31 08:59:17.756533
 description: null
 image: //static.frostming.com/images/2018-07-keyboard.jpg
 tags: []
+template: post
 title: 五笔已经落伍了吗？
 ---
 

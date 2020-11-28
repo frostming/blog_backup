@@ -1,11 +1,11 @@
 ---
-author: 岂不美哉
 category: 随笔
 date: 2017-09-20 05:00:27
 description: 一个违反直觉的概率问题
 image: https://www.iprospect.com/~/media/Local/Canada/Our%20blog/Article%20Covers/2015/quiz-1400.jpg
 tags:
 - 数学
+template: post
 title: 概率也会欺骗你
 ---
 

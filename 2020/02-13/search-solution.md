@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-02-13 08:02:31.007825
 description: ''
@@ -7,6 +6,7 @@ image: ''
 tags:
 - 吐槽
 - 入门
+template: post
 title: 百度低质回答是如何坑了你
 ---
 

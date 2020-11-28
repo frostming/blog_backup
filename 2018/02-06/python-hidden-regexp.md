@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-02-06 09:08:14.770294
 description: Python's Hidden Regular Expression Gems
@@ -8,6 +7,7 @@ tags:
 - Python
 - 正则表达式
 - 翻译
+template: post
 title: '[译]Python正则表达式拾珠'
 ---
 

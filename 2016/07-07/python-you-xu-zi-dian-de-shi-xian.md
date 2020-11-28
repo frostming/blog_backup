@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-07-07 20:16:20
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - Python
 - 源码阅读
+template: post
 title: Python 有序字典的实现
 ---
 

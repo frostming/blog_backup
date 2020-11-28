@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-05-12 13:25:40.235082
 description: ''
 image: ''
 tags:
 - Python
+template: post
 title: 从 Python 的魔法方法说开去
 ---
 

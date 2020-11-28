@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2017-08-28 19:57:59
 description: null
@@ -7,6 +6,7 @@ image: https://www.ourchurch.com/blog/wp-content/uploads/2013/12/how_does_it_wor
 tags:
 - Python
 - howdoesitworks
+template: post
 title: How does it work - with_metaclass
 ---
 

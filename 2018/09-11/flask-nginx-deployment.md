@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-09-11 03:56:26.809331
 description: Flask博客部署到云服务器完整流程
@@ -8,6 +7,7 @@ tags:
 - 博客
 - Python3
 - Flask
+template: post
 title: Flask+Nginx博客容器化部署
 ---
 

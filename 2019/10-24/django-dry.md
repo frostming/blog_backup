@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-10-24 13:21:16.512346
 description: Django+Django REST Framework下的DRY实践
@@ -8,6 +7,7 @@ tags:
 - Python3
 - django
 - drf
+template: post
 title: 让你的Django应用变DRY的几个最佳实践
 ---
 

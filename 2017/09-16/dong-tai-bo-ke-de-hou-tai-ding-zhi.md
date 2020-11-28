@@ -1,5 +1,4 @@
 ---
-author: Frost明
 category: 编程
 date: 2017-09-16 13:12:09
 description: 自定义 Flask-Admin 的表单控件
@@ -8,6 +7,7 @@ tags:
 - Web
 - 博客
 - Flask
+template: post
 title: 动态博客的后台定制
 ---
 

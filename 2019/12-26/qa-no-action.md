@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-12-26 07:36:35.152710
 description: ''
@@ -7,6 +6,7 @@ image: https://images.unsplash.com/photo-1458419948946-19fb2cc296af?ixlib=rb-1.2
 tags:
 - 社区
 - 入门
+template: post
 title: 社区问答中需要避免的行为
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-03-10 06:20:05.684060
 description: ''
 image: https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 tags:
 - 社区
+template: post
 title: 如何让你的开源项目看上去像那么回事
 ---
 

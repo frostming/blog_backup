@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-05-25 19:00:00
 description: null
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2016-d.png
 tags:
 - Web
 - 博客
+template: post
 title: 在博客与笔记中使用Markdown
 ---
 

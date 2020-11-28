@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-09-10 15:27:58
 description: null
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/9890742f52f3dc5ad892bf3699ba1bf2.png
 tags:
 - Web
 - 博客
+template: post
 title: 个人网站宣告上线
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2019-01-21 09:23:10.508138
 description: ''
 image: ''
 tags:
 - 日志
+template: post
 title: 使用双拼输入法一周回顾
 ---
 

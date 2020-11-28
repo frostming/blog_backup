@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-05-15 03:24:36.869245
 description: ''
@@ -7,6 +6,7 @@ image: https://us.pycon.org/2018/site_media/static/img/pycon2018.f76001445fbb.pn
 tags:
 - Python
 - Packaging
+template: post
 title: 'Python packaging war: Pipenv vs. Poetry'
 ---
 

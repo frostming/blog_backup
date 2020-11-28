@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2020-05-27 10:32:22.791039
 description: ''
 image: ''
 tags:
 - 心情
+template: post
 title: 写在30岁生日之前
 ---
 

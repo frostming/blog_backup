@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-08-23 15:13:23
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - Python
 - Python3
+template: post
 title: 如何编写向前兼容的 Python 代码
 ---
 

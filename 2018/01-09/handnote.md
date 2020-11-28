@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2018-01-09 11:12:39.070123
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - 感悟
 - 心情
+template: post
 title: 随想
 ---
 

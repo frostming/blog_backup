@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-06-03 18:00:00
 description: null
@@ -8,6 +7,7 @@ tags:
 - Python
 - Requests
 - 源码阅读
+template: post
 title: Requests源码阅读v0.8.0
 ---
 

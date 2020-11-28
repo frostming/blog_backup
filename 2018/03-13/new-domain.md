@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-03-13 13:28:52.423173
 description: null
 image: null
 tags:
 - Web
+template: post
 title: 新域名!
 ---
 

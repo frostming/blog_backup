@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2020-06-11 07:06:26.773597
 description: Frost为何变自闭
 image: //static.frostming.com/images/image-20200611143616626.png
 tags:
 - Python
+template: post
 title: Meetup首秀，Live coding翻车
 ---
 

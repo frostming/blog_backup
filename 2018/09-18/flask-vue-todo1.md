@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-09-18 07:49:20.101906
 description: 使用Vue.js搭建Todo App
@@ -8,6 +7,7 @@ tags:
 - Python
 - Flask
 - Vue
+template: post
 title: Flask前后端分离实践：Todo App(1)
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-09-03 05:28:35.983371
 description: ''
 image: https://files.realpython.com/media/What-is-PIP_Watermarked.c46f49dc33f9.jpg
 tags:
 - Python
+template: post
 title: Pip trusted_host问题记录
 ---
 

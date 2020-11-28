@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-03-13 09:53:19.910361
 description: 终结一切找不到包、可执行文件的问题
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2019-03-john-westrock-638048-unsplash.jpg
 tags:
 - Python
 - Packaging
+template: post
 title: 你的 Python 包都装到哪了？
 ---
 

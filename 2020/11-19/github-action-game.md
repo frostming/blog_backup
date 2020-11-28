@@ -1,11 +1,11 @@
 ---
-author: null
 category: 编程
 date: 2020-11-19 03:06:00.707508
 description: 利用GitHub Action在你的个人README加魔法
 image: ''
 tags:
 - github
+template: post
 title: 我是如何摸鱼的
 ---
 

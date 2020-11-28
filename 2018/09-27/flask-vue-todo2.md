@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-09-27 03:59:16.822806
 description: 表单与登录
@@ -8,6 +7,7 @@ tags:
 - Python
 - Flask
 - Vue
+template: post
 title: Flask前后端分离实践：Todo App(2)
 ---
 

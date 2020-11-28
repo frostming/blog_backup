@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2019-12-17 01:17:32.919725
 description: ''
@@ -7,6 +6,7 @@ image: https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2
 tags:
 - 心情
 - 总结
+template: post
 title: 不想写的 2019 总结
 ---
 

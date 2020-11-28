@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-02-11 04:52:16.946529
 description: null
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/folding-paper.jpg
 tags:
 - 算法
 - 刷题
+template: post
 title: Codingame本周谜题「折纸曲线」解
 ---
 

@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-08-11 06:00:21.587857
 description: ''
@@ -8,6 +7,7 @@ tags:
 - Python
 - 博客
 - Flask
+template: post
 title: 使用Flask搭建个人博客
 ---
 

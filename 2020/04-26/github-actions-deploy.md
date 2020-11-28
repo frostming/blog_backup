@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-04-26 04:52:08.037603
 description: ''
@@ -7,6 +6,7 @@ image: https://images.unsplash.com/photo-1524514587686-e2909d726e9b?ixlib=rb-1.2
 tags:
 - Python
 - 博客
+template: post
 title: 使用 GitHub Actions 实现博客自动化部署
 ---
 

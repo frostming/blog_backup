@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2018-09-14 02:31:14.787378
 description: 从pip到virtualenv到pipenv
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2018-09-pipenv.jpg
 tags:
 - Python
 - Packaging
+template: post
 title: Python包管理工作流
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2018-11-26 03:31:50.455102
 description: ''
 image: https://cdn.wccftech.com/wp-content/uploads/2018/02/Twitter.jpeg
 tags:
 - 感悟
+template: post
 title: 第一次成为网红
 ---
 

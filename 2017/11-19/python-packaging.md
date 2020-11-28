@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2017-11-19 22:25:38.869530
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - Python
 - Packaging
+template: post
 title: What's the problem about Python packaging?
 ---
 

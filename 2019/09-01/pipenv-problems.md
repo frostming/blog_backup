@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-09-01 08:36:32.647769
 description: 又一篇Pipenv文章
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2018-09-pipenv.jpg
 tags:
 - Python
 - Packaging
+template: post
 title: Pipenv有什么问题
 ---
 

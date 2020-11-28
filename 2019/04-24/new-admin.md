@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-04-24 03:14:48.705965
 description: Vue.js + Flask前后端分离
@@ -8,6 +7,7 @@ tags:
 - Python
 - 博客
 - Vue
+template: post
 title: 全新后台上线
 ---
 

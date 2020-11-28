@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-11-26 03:04:20.729759
 description: 无限接近node.js的本地包体验
@@ -7,6 +6,7 @@ image: https://static.frostming.com/images/2020-04-pep582.png
 tags:
 - Python
 - Packaging
+template: post
 title: PEP 582 的开发日志(续)
 ---
 

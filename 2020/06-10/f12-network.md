@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-06-10 05:10:32.233243
 description: F12 Network篇
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2020-06-chrome-devtools-lg.webp
 tags:
 - Web
 - 入门
+template: post
 title: Chrome开发者工具指北
 ---
 

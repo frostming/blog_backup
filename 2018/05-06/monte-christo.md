@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2018-05-06 14:04:40.533512
 description: 《基督山伯爵》读后感
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2018-05-vendetta-poster.jpg
 tags:
 - 感悟
 - 阅读
+template: post
 title: 西方的侠
 ---
 

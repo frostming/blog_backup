@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2016-06-13 13:00:00
 description: 关于列表的一些可能遇到的坑
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/b29981fcbfc858cf9f7efb8f7f7923f0.png
 tags:
 - Python
 - 小技巧
+template: post
 title: Python 列表小技巧
 ---
 

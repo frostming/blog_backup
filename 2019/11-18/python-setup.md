@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-11-18 09:42:47.036853
 description: 2020年我使用的Python工具
@@ -7,6 +6,7 @@ image: https://images.unsplash.com/photo-1573937938551-ad632716c1b8?ixlib=rb-1.2
 tags:
 - Python
 - Packaging
+template: post
 title: 我的Python环境设置
 ---
 

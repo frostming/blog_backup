@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-01-04 02:50:01.969142
 description: ''
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/2019-01-poetry.png
 tags:
 - Python
 - Packaging
+template: post
 title: A deeper look into Pipenv and Poetry
 ---
 

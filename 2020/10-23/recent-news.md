@@ -1,10 +1,10 @@
 ---
-author: Frost Ming
 category: 随笔
 date: 2020-10-23 06:29:43.358846
 description: ''
 image: ''
 tags: []
+template: post
 title: 关于近况的说明
 ---
 

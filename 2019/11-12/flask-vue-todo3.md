@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-11-12 08:12:34.660077
 description: CSRF防护与后端鉴权
@@ -8,6 +7,7 @@ tags:
 - Python
 - Flask
 - Vue
+template: post
 title: Flask前后端分离实践：Todo App(3)
 ---
 

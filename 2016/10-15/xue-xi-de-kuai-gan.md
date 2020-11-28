@@ -1,5 +1,4 @@
 ---
-author: null
 category: 随笔
 date: 2016-10-15 21:39:46
 description: null
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/a9b733e63c96006e42e6ab7d51151e82.png
 tags:
 - 心情
 - Web
+template: post
 title: 学习的快感
 ---
 

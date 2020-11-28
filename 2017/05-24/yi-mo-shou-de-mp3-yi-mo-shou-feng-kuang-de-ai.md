@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2017-05-24 19:34:48
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - 数据
 - 爬虫
+template: post
 title: 一万首的MP3，一万首疯狂的爱
 ---
 

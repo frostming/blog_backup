@@ -1,5 +1,4 @@
 ---
-author: 岂不美哉
 category: 随笔
 date: 2017-01-19 20:50:43
 description: null
@@ -7,6 +6,7 @@ image: null
 tags:
 - 感悟
 - 总结
+template: post
 title: 2017年初杂记
 ---
 

@@ -1,11 +1,11 @@
 ---
-author: null
 category: 随笔
 date: 2016-12-27 20:14:35
 description: null
 image: null
 tags:
 - 历史
+template: post
 title: 历史惊人的重合
 ---
 

@@ -1,5 +1,4 @@
 ---
-author: null
 category: 编程
 date: 2017-04-05 19:31:31
 description: null
@@ -8,6 +7,7 @@ tags:
 - Web
 - Python
 - Flask
+template: post
 title: Flask 实现远程日志实时监控
 ---
 

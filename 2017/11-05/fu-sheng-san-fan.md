@@ -1,5 +1,4 @@
 ---
-author: 岂不美哉
 category: 随笔
 date: 2017-11-05 07:47:27.663677
 description: 旧金山的阴与晴
@@ -7,6 +6,7 @@ image: //static.frostming.com/images/sanfran.png
 tags:
 - 日志
 - 心情
+template: post
 title: 浮生三藩
 ---
 

@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-03-16 04:50:49.433635
 description: 可选配的插件
@@ -8,6 +7,7 @@ tags:
 - Python
 - Flask
 - django
+template: post
 title: 浅谈 Python 库的插件系统设计
 ---
 

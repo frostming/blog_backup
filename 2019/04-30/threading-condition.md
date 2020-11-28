@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-04-30 10:03:07.109612
 description: HDIW系列文章之二
@@ -8,6 +7,7 @@ tags:
 - Python
 - howdoesitworks
 - 源码阅读
+template: post
 title: How does it work? -- threading.Condition
 ---
 

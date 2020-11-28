@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2019-11-27 06:20:59.286005
 description: ''
@@ -8,6 +7,7 @@ tags:
 - Python
 - 博客
 - Flask
+template: post
 title: Flask 博客接入第三方登录
 ---
 

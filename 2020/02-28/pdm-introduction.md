@@ -1,5 +1,4 @@
 ---
-author: Frost Ming
 category: 编程
 date: 2020-02-28 05:56:16.271251
 description: 自己的轮子，自己做主
@@ -7,6 +6,7 @@ image: https://images.unsplash.com/photo-1512418490979-92798cec1380?ixlib=rb-1.2
 tags:
 - Python
 - Packaging
+template: post
 title: PDM - 一款新的 Python 包管理器
 ---
 
