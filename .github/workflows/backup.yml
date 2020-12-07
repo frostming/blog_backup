@@ -2,9 +2,6 @@ name: Backup posts in markdown
 
 on:
   workflow_dispatch:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: "4 5 * * *"
 
 jobs:
   backup:
